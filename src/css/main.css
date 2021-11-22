@@ -15,8 +15,8 @@ article {
 
 .playlist-cover {
   margin: 3rem;
-  height: 20rem;
-  width: 20rem;
+  height: 200px;
+  width: 200px;
   display: flex;
   justify-content: center;
   box-shadow: -9px 22px 109px -5px rgba(0, 0, 0, 0.47);
@@ -29,14 +29,15 @@ article {
 
 .section-1 {
   display: flex;
-  align-items: center;
+  align-items: end;
   align-content: center;
 }
 
 .section-1 div {
   display: flex;
   flex-direction: column;
-  padding: 3rem;
+  height: 200px;
+  margin-bottom: 1rem;
 }
 
 .section-1 div div {
@@ -54,6 +55,11 @@ article {
   line-height: 100%;
 }
 
+.section-1 div h2 {
+  color: white;
+  font-family: proxima-nova;
+}
+
 .section-1 div h3 {
   color: white;
   font-family: proxima-nova;
@@ -62,7 +68,17 @@ article {
 }
 
 .section-2 img {
-  height: 6rem;
+  height: 5rem;
+  padding-left: 2.5rem;
+}
+
+.section-3 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 15rem;
+  padding-left: 4rem;
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .section-3 h3 {
@@ -72,9 +88,27 @@ article {
   font-size: 1.25rem;
 }
 
+.song-number {
+  color: #abacb2;
+  font-family: proxima-nova;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.song-number div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .section-3 img {
   height: 1.3rem;
   width: 1.3rem;
+}
+
+.song-1 img {
+  height: 5rem;
+  width: 5rem;
 }
 
 .song-1 h1 {
@@ -87,6 +121,11 @@ article {
   font-family: proxima-nova;
 }
 
+.song-2 img {
+  height: 5rem;
+  width: 5rem;
+}
+
 .song-2 h1 {
   color: white;
   font-family: proxima-nova;
@@ -95,6 +134,11 @@ article {
 .song-2 h3 {
   color: #abacb2;
   font-family: proxima-nova;
+}
+
+.song-3 img {
+  height: 5rem;
+  width: 5rem;
 }
 
 .song-3 h1 {
@@ -107,6 +151,11 @@ article {
   font-family: proxima-nova;
 }
 
+.song-4 img {
+  height: 5rem;
+  width: 5rem;
+}
+
 .song-4 h1 {
   color: white;
   font-family: proxima-nova;
@@ -117,6 +166,11 @@ article {
   font-family: proxima-nova;
 }
 
+.song-5 img {
+  height: 5rem;
+  width: 5rem;
+}
+
 .song-5 h1 {
   color: white;
   font-family: proxima-nova;
@@ -125,6 +179,11 @@ article {
 .song-5 h3 {
   color: #abacb2;
   font-family: proxima-nova;
+}
+
+.song-6 img {
+  height: 5rem;
+  width: 5rem;
 }
 
 .song-6 h1 {
